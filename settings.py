@@ -3,6 +3,7 @@ from google.genai import types as genai_types
 # Constants
 MAX_CHARS = 10000
 FILE_EXTENSIONS = [".py", ".txt"]
+WORKING_DIR = "./calculator"
 
 # Prompts
 system_prompt = """
