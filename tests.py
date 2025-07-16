@@ -2,7 +2,7 @@
 
 import unittest
 
-from functions.run_python_files import run_python_file
+from functions.run_python_file import run_python_file
 
 
 class TestFunctions(unittest.TestCase):
