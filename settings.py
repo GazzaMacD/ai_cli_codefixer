@@ -4,6 +4,7 @@ from google.genai import types as genai_types
 MAX_CHARS = 10000
 FILE_EXTENSIONS = [".py", ".txt", ".md"]
 WORKING_DIR = "calculator"
+MAX_ITERS = 20
 
 # Prompts
 system_prompt = """
